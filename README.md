@@ -1,3 +1,3 @@
 # Vektorel
 
-#Konsol Uygulaması
+Konsol Uygulaması
