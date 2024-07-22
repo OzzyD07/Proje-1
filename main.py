@@ -1,6 +1,5 @@
 import importlib
 
-
 class Menu:
 
     def __init__(self, options):
