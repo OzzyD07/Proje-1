@@ -95,6 +95,28 @@ class Calculator:
                 m = float(input(f"Boyunuzu girin (m): "))
                 bmi = kg / (m**2)
                 print(f"Vücut kitle indeksiniz: {bmi}")
+            elif operation == 8:
+                num1 = int(input("Üssünü almak isteğiniz sayıyı girin: "))
+                num2 = int(input("Üssü girin: "))
+                result = num1**num2
+                print(result)
+            elif operation == 9: 
+                num = int(input("Asallığını kontrol etmek istediniz sayıyı girin: "))
+                intRoot = int(num ** 0.5)
+                if num == 2:
+                    print(f"{num} sayısı en küçük asal sayıdır")
+                elif num ** 0.5 == intRoot :
+                    print(f"{num} sayısı bir asal sayı değildir")
+                elif num % 2 == 0: 
+                    print(f"{num} sayısı bir asal sayı değildir")
+                elif num % 3 == 0: 
+                    print(f"{num} sayısı bir asal sayı değildir")
+                elif num % 5 == 0: 
+                    print(f"{num} sayısı bir asal sayı değildir")
+                elif num % 7 == 0: 
+                    print(f"{num} sayısı bir asal sayı değildir")
+                else: 
+                    print(f"{num} sayısı bir asal sayıdır")
         except ValueError:
             print("Hata: Lütfen geçerli bir sayı girin.")
 
@@ -117,6 +139,8 @@ def run():
         "5-Yaş Hesaplama",
         "6-Ortalama Hesaplayıcı",
         "7-BMI -Vücut Kitle İndeksi- Hesaplayıcı",
+        "8-Üst Alma",
+        "9-Asal Sayı Mı",
         "0-Ana Menü",
     ]
     calculator = Calculator(options)
