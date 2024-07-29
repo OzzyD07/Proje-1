@@ -3,4 +3,4 @@
 Python kullanarak konsol üzerinde çalışan örnek bir uygulama.
 <br>
 <br>
-<img src="assets/SS.PNG" alt="Example ScreenShot">
+<img src="assets/ss.PNG" alt="Example ScreenShot">
