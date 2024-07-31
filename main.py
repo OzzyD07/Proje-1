@@ -60,7 +60,7 @@ class Menu:
 if __name__ == '__main__':
     options = [
         "1-Hesaplayıcı",
-        "2-Proje 2",
+        "2-Yılan Oyunu",
         "3-Proje 3",
         "4-Proje 4",
         "0-Çıkış",
