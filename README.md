@@ -37,7 +37,7 @@ Projeyi bilgisayarınıza klonlamak için şu adımları izleyin:
 Projeyi çalıştırmak için terminal veya komut satırını kullanarak `main.py` dosyasını çalıştırın:
 
 ## Dosya Yapısı
-```
+```bash
 ├── main.py              # Ana menü ve proje yönetimi
 ├── calculator.py        # Hesaplayıcı modülü
 └── oyunlar/             # Oyunlar modülü
