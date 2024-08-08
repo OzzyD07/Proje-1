@@ -1,7 +1,6 @@
-from calculator import run as run_calculator
-from games.games_menu import run as run_games_menu
+from games.snake_game import run as run_snake_game
 
-class Menu:
+class GamesMenu:
 
     def __init__(self, options):
         self.options = options
@@ -13,7 +12,7 @@ class Menu:
             print(f"║ {option}{padding} ║")
 
     def draw_frame(self):
-        print(f"{' ' * (int(self.max_width / 2 - 2))}PROJELER")
+        print(f"{' ' * (int(self.max_width / 2 - 2))}OYUNLAR")
         top_bottom = "═" * (self.max_width + 2)
         print(f"╔{top_bottom}╗")
         print(f"║ {' ' * self.max_width} ║")
@@ -26,7 +25,7 @@ class Menu:
             try:
                 selection = int(input("Bir seçenek seçin: "))
                 if selection == 0:
-                    print("Programdan çıkılıyor...")
+                    print("Ana menüye dönülüyor...")
                     return None
                 elif selection > len(self.options) - 1:
                     print("Geçersiz seçenek!")
@@ -43,18 +42,17 @@ class Menu:
             if selection is None:
                 break
             elif selection == 1:
-                run_calculator()
-            elif selection == 2:
-                run_games_menu()
+                run_snake_game()
     
 
-if __name__ == '__main__':
+def run():
     options = [
-        "1-Hesaplayıcı",
-        "2-Oyunlar",
-        "3-Proje 3 (boş)",
-        "4-Proje 4 (boş)",
-        "0-Çıkış",
+        "1-Yılan Oyunu",
+        "0-Ana Menüye Dön",
     ]
-    menu = Menu(options)
-    menu.run()
+    games_menu = GamesMenu(options)
+    games_menu.run()
+
+
+if __name__ == '__main__':
+    run()
