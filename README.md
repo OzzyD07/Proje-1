@@ -23,7 +23,7 @@ Projeyi bilgisayarınıza klonlamak için şu adımları izleyin:
 
 1. Git'i kullanarak projeyi klonlayın:
     ```bash
-    git clone https://github.com/kullaniciadi/proje-1.git
+    git clone https://github.com/OzzyD07/Proje-1
     ```
 2. Python 3.x'in bilgisayarınızda kurulu olduğundan emin olun.
 3. Gereksinimleri yükleyin:
