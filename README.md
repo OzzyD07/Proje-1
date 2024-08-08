@@ -26,11 +26,6 @@ Projeyi bilgisayarınıza klonlamak için şu adımları izleyin:
     git clone https://github.com/OzzyD07/Proje-1
     ```
 2. Python 3.x'in bilgisayarınızda kurulu olduğundan emin olun.
-3. Gereksinimleri yükleyin:
-    ```bash
-    pip install -r requirements.txt
-    ```
-   (Bu proje için ek bir bağımlılık gerekmediğinden, bu dosya boş olabilir.)
 
 ## Kullanım
 
