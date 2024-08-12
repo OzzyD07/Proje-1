@@ -34,8 +34,9 @@ Projeyi çalıştırmak için terminal veya komut satırını kullanarak `main.p
 ## Dosya Yapısı
 ```bash
 ├── main.py              # Ana menü ve proje yönetimi
-├── calculator.py        # Hesaplayıcı modülü
-└── games/               # Oyunlar modülü
+├── calculator/          # Hesaplayıcı Klasörü
+    └── calculator.py    # Hesaplayıcı modülü
+└── games/               # Oyunlar Klasörü
     ├── games_menu.py    # Oyunlar menüsü
     └── snake_game.py    # Yılan Oyunu
 ```
