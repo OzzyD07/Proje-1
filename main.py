@@ -1,4 +1,4 @@
-from calculator import run as run_calculator
+from calculator.calculator import run as run_calculator
 from games.games_menu import run as run_games_menu
 
 class Menu:
@@ -54,6 +54,7 @@ if __name__ == '__main__':
         "2-Oyunlar",
         "3-Proje 3 (boş)",
         "4-Proje 4 (boş)",
+        "5- jksdhglkuszhglhg",
         "0-Çıkış",
     ]
     menu = Menu(options)
